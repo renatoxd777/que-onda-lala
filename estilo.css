@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(https://c.files.bbci.co.uk/E396/production/_107726285_p2390647_2218295844_5.jpg);
+    background-size: cover;
+    justify-content: center;
+    
+  
+    
+}
+
+nav {
+    max-width: 1600px;
+    margin: auto;
+    background-color: #ff00009f;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(12, 33, 128);
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: red;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width:200px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: rgb(236, 226, 226);
+}
+
+.menu-vertical li a {
+    display: block;
+    color: rgb(252, 242, 242);
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+    font-size: 300;
+}
+.contenedor-texto {
+background-color: rgba(100, 80, 220, 0.6);
+border: 2px solid #6450dc;
+border-radius: 20px;
+padding: 20px;
+color: #222;
+margin:  20px auto;
+width: 80%;
+}
+.contenedor-texto p{
+color: black;   
+}
